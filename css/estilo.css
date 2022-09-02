@@ -1,0 +1,37 @@
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+ #foto-brasil {
+    height: 1000px;
+    
+    background-repeat: no-repeat;
+    background: url(../imagens/porto-brasil.jpg) ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+ }
+
+.brasil {
+    position: absolute;
+    background: #111;
+    color: #fff;
+    
+    
+    
+}
+
+#foto-argentina {
+    height: 1000px;
+    background: url(../imagens/foto-buenos-aires.jpg);
+    background-attachment: fixed;
+}
+
+
+
+
+
