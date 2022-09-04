@@ -2,17 +2,20 @@ body{
     height: 100%;
     margin: 0;
     padding: 0;
+    background: #111;
 }
+
 
  #foto-brasil {
     height: 1000px;
     
     background-repeat: no-repeat;
-    background: url(../imagens/porto-brasil.jpg) ;
+    background: url(../imagens/foto-brasil.jpg) ;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    opacity: 0.9;
     
  }
 
@@ -39,6 +42,7 @@ h1 {
 }
 .texto-porto {
     text-align: center;
+    color: #fff;
 }
 
 p {
@@ -58,28 +62,81 @@ p {
 
 }
 #foto-argentina {
-    height: 900px;
+    min-height: 800px;
     background: url(../imagens/foto-buenos-aires.jpg);
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     background-attachment: fixed;
+   
+
 }
 
 .texto-argentina {
     font-size: 2em;
+    color: #fff;
 }
 
 .texto-bueno-aires {
     text-align: center;
     background: #111;
+    color: #fff;
     
 }
 
-.titulo-bueno-aires{
-    background-color: #fff;
+
+
+/* Montevideo */
+
+#foto-uruguai {
+    background: url(../imagens/foto-Montevideo.jpg);
+    min-height: 400px;
+    
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+
 }
 
-.paragrafo-bueno-aires{
+.paragrafo-montevideo {
+    
     color: #fff;
 }
+
+.titulo-montevideo {
+
+    color: #fff;
+}
+
+.texto-montevideo{
+    
+    background: #111;
+    display: block;
+}
+
+#uruguai {
+    position: absolute;
+    background: #111;
+    color: #fff;
+    padding: 25px 70px;
+    margin:150px 570px;
+    border-radius: 5px;
+    
+}
+
+
+
+
+
+
+
+
 
 
 
