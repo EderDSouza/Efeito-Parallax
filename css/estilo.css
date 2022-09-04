@@ -16,20 +16,71 @@ body{
     
  }
 
-.brasil {
+#brasil {
     position: absolute;
     background: #111;
     color: #fff;
-    
-    
-    
+    padding: 25px 70px;
+    margin:350px 550px;
+    border-radius: 5px;
+    opacity: 0.8;
 }
 
+
+
+.texto-brasil {
+    font-size: 2em;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2em;
+
+}
+.texto-porto {
+    text-align: center;
+}
+
+p {
+    font-size: 1.4em;
+}
+
+/* Argentina */
+
+#argentina{
+    position: absolute;
+    background: #111;
+    color: #fff;
+    padding: 25px 70px;
+    margin:350px 550px;
+    border-radius: 5px;
+    opacity: 0.8;
+
+}
 #foto-argentina {
-    height: 1000px;
+    height: 900px;
     background: url(../imagens/foto-buenos-aires.jpg);
     background-attachment: fixed;
 }
+
+.texto-argentina {
+    font-size: 2em;
+}
+
+.texto-bueno-aires {
+    text-align: center;
+    background: #111;
+    
+}
+
+.titulo-bueno-aires{
+    background-color: #fff;
+}
+
+.paragrafo-bueno-aires{
+    color: #fff;
+}
+
 
 
 
