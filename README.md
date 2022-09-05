@@ -4,5 +4,9 @@ O efeito parallax traz como uma das principais vantagens a criação de imagens
 que podem ser ampliadas ao fazer a combinação com os elementos do website da empresa
 e efeitos de rolagem dinâmica. <br>
 
+<div>
+  <img src="parallax_Gif1.gif.gif"
+</div>
+
 
 
