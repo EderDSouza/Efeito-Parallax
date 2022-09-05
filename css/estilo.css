@@ -7,7 +7,7 @@ body{
 
 
  #foto-brasil {
-    height: 1000px;
+    height: 800px;
     
     background-repeat: no-repeat;
     background: url(../imagens/foto-brasil.jpg) ;
@@ -27,6 +27,10 @@ body{
     margin:350px 550px;
     border-radius: 5px;
     opacity: 0.8;
+    letter-spacing: 8px;
+    text-align: center;
+    display: flex;
+    
 }
 
 
@@ -53,19 +57,21 @@ p {
 
 #argentina{
     position: absolute;
-    background: #111;
     color: #fff;
     padding: 25px 70px;
-    margin:350px 550px;
-    border-radius: 5px;
-    opacity: 0.8;
+    letter-spacing: 8px;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    
+
 
 }
 #foto-argentina {
     min-height: 800px;
     background: url(../imagens/foto-buenos-aires.jpg);
     position: relative;
-    opacity: 0.70;
+    opacity: 0.60;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -77,6 +83,9 @@ p {
 .texto-argentina {
     font-size: 2em;
     color: #fff;
+    background: #111;
+    padding: 30px;
+    border-radius: 6px;
 }
 
 .texto-bueno-aires {
@@ -101,6 +110,7 @@ p {
     background-repeat: no-repeat;
     background-attachment: fixed;
     
+    
 
 }
 
@@ -122,11 +132,13 @@ p {
 
 #uruguai {
     position: absolute;
-    background: #111;
-    color: #fff;
-    padding: 25px 70px;
-    margin:150px 570px;
-    border-radius: 5px;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color:#fff;
+    font-size: 2em;
+    letter-spacing: 8px;
+    text-transform: uppercase;
     
 }
 
