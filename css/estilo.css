@@ -1,160 +1,119 @@
-body{
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    background: #111;
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: #111;
 }
 
+#foto-brasil {
+  height: 800px;
 
- #foto-brasil {
-    height: 800px;
-    
-    background-repeat: no-repeat;
-    background: url(../imagens/foto-brasil.jpg) ;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    opacity: 0.9;
-    
- }
+  background-repeat: no-repeat;
+  background: url(../imagens/foto-brasil.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  opacity: 0.9;
+}
 
 #brasil {
-    position: absolute;
-    top: 50%;
-    width: 100%;
-    text-align: center;
-    
-    
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
 }
 
-
-
 .texto-brasil {
-    font-size: 2em;
-    background: #111;
-    color: #fff;
-    padding: 30px 70px;
-    letter-spacing: 9px;
-    border-radius: 6px;
+  font-size: 2em;
+  background: #111;
+  color: #fff;
+  padding: 30px 70px;
+  letter-spacing: 9px;
+  border-radius: 6px;
 }
 
 h1 {
-    text-align: center;
-    font-size: 2em;
-    
-
+  text-align: center;
+  font-size: 2em;
 }
 .texto-porto {
-    text-align: center;
-    color: #fff;
+  text-align: center;
+  color: #fff;
 }
 
 p {
-    font-size: 1.4em;
+  font-size: 1.4em;
 }
 
 /* Argentina */
 
-#argentina{
-    position: absolute;
-    top: 50%;
-    width: 100%;
-    text-align: center;
-    opacity: 60%;
-    
-
-
+#argentina {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  opacity: 60%;
 }
 #foto-argentina {
-    min-height: 800px;
-    background: url(../imagens/foto-buenos-aires.jpg);
-    position: relative;
-    opacity: 0.60;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-   
-
+  min-height: 800px;
+  background: url(../imagens/foto-buenos-aires.jpg);
+  position: relative;
+  opacity: 0.6;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .texto-argentina {
-    font-size: 2em;
-    color: #fff;
-    background: #111 ;
-    padding: 30px;
-    border-radius: 6px;
-    letter-spacing: 9px;
-    
-    
-    
-    
+  font-size: 2em;
+  color: #fff;
+  background: #111;
+  padding: 30px;
+  border-radius: 6px;
+  letter-spacing: 9px;
 }
 
 .texto-bueno-aires {
-    text-align: center;
-    background: #111;
-    color: #fff;
-    
+  text-align: center;
+  background: #111;
+  color: #fff;
 }
-
-
 
 /* Montevideo */
 
 #foto-uruguai {
-    background: url(../imagens/foto-Montevideo.jpg);
-    min-height: 400px;
-    position: relative;
-    opacity: 0.70;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    
-    
-
+  background: url(../imagens/foto-Montevideo.jpg);
+  min-height: 400px;
+  position: relative;
+  opacity: 0.7;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .paragrafo-montevideo {
-    
-    color: #fff;
+  color: #fff;
 }
 
 .titulo-montevideo {
-
-    color: #fff;
+  color: #fff;
 }
 
-.texto-montevideo{
-    
-    background: #111;
-    display: block;
+.texto-montevideo {
+  background: #111;
+  display: block;
 }
 
 #uruguai {
-    position: absolute;
-    top: 50%;
-    width: 100%;
-    text-align: center;
-    color:#fff;
-    font-size: 2em;
-    letter-spacing: 8px;
-    text-transform: uppercase;
-    
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  font-size: 2em;
+  letter-spacing: 8px;
+  text-transform: uppercase;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
